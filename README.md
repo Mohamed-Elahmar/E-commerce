@@ -46,7 +46,7 @@ A distributed, microservices-based e-commerce platform built with Spring Boot an
 ---
 
 ## 📐 Project Structure
-
+<pre> <code> ```
 ecommerceApp/
 ├── EER/
 ├── api-gateway/
@@ -62,4 +62,4 @@ ecommerceApp/
 └── wallet-service-first/
 └── wallet-service-second/
 └── ports.txt 
-
+``` </code> </pre>
