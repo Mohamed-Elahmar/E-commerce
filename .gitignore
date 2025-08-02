@@ -1,2 +1,65 @@
+/E-commerce/ecommerceApp/compressed/
+/E-commerce/ecommerceApp/EER/
+
+###########################
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Build directories ===
+/target/
+/build/
+
+# === Maven ===
+.mvn/
+!**/mvnw
+!**/mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+ 
+
+# === Logs ===
 *.log
-E-commerce\ecommerceApp\compressed
+logs/
+**/logs/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# === VS Code ===
+.vscode/
+
+ 
+
+# === OS/System Files ===
+.DS_Store
+Thumbs.db
+
+# === Spring Boot Specific ===
+*.h2.db
+*.mv.db
+*.trace.db
+
+# === Application Configs ===
+.env
+*.yml.secret
+*.properties.secret
+application-local.yml
+application-dev.yml
+
+# === Git ===
+.git/
+.gitignore
+
+ 
+
