@@ -53,10 +53,10 @@ ecommerceApp/
 ├── git-localconfig-repo/
 ├── naming-server/
 ├── spring-cloud-config-server/
-└── inventory-service-first/
-└── shop-service-first/
-└── shop-service-second/
-└── wallet-service-first/
-└── wallet-service-second/
-└── ports.txt 
+├── inventory-service-first/
+├── shop-service-first/
+├── shop-service-second/
+├── wallet-service-first/
+├── wallet-service-second/
+├── ports.txt 
 </code> </pre>
