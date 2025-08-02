@@ -1,0 +1,13 @@
+
+ insert into USERS (  ID, NAME, PASSWORD) values( 'Mohamed' ,'MohamedMohamed');
+ insert into USERS (  ID, NAME, PASSWORD) values( 'Ahmed'   ,'AhmedAhmed');
+ insert into USERS (  ID, NAME, PASSWORD) values('Ali'      ,'AliAli');
+ insert into USERS (  ID, NAME, PASSWORD) values( 'Joe'     ,'JoeJoe');
+ insert into USERS (  ID, NAME, PASSWORD) values( 'Mai'     ,'MaiMai');
+ insert into USERS (  ID, NAME, PASSWORD) values( 'Mariam'  ,'MariamMariam');
+
+
+ -- Insert into WALLET table
+ INSERT INTO WALLET (ID, USER_ID, WALLET_BALANCE, VISA_NUMBER) VALUES ( 1, 1500.0, '1234567890123456');
+ INSERT INTO WALLET (ID, USER_ID, WALLET_BALANCE, VISA_NUMBER) VALUES ( 2, 2000.0, '9876543210987654');
+ INSERT INTO WALLET (ID, USER_ID, WALLET_BALANCE, VISA_NUMBER) VALUES ( 3, 2500.0, '5678901234567890');

@@ -1,0 +1,40 @@
+config server 8888
+
+*******************************************************************************
+
+wallet1 8000
+wallet2 8001
+
+Login Service ---> "localhost:8000/Login/userName/{userName}/password/{password}"
+
+
+
+*********************************************************************************
+
+shop1  8100
+shop2  8101
+
+*******************************************************************************
+
+inventory1 8200
+inventory2 8201
+
+*******************************************************************************
+
+naming server port=8761
+
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+</dependency>
+**********************************************************************************
+
+api-gateway 
+port=8765
+
+**********************************************************************************
+
+
+ 
